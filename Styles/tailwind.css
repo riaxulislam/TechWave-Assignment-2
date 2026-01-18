@@ -29,6 +29,23 @@
     #FB09B4,
     #F7E93F
   );
+  color: white;
 
   transition: transform 0.2s ease, box-shadow 0.2s ease;
+}
+
+.hero{
+    background-image: url('../assets/hero-bg.png');
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    height: 760px;
+    padding: 100px 0;
+}
+
+.pst{
+    position: relative;
+    top: -50px;
+    margin: 0 auto;
+    right: -130px;
 }
