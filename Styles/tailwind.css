@@ -1,0 +1,34 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap');
+
+
+@import "tailwindcss";
+
+
+
+.font-inter {
+  font-family: "Inter", sans-serif;
+}
+
+.gradient-text {
+  background: linear-gradient(
+    to bottom left,
+    #9100F8,
+    #FB09B4,
+    #F7E93F
+  );
+  -webkit-background-clip: text;
+  background-clip: text;
+  -webkit-text-fill-color: transparent;
+  color: transparent;
+}
+
+.gradient-bg {
+  background: linear-gradient(
+    to bottom left,
+    #9100F8,
+    #FB09B4,
+    #F7E93F
+  );
+
+  transition: transform 0.2s ease, box-shadow 0.2s ease;
+}
