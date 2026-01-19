@@ -49,3 +49,11 @@
     margin: 0 auto;
     right: -130px;
 }
+
+.bg-hero{
+  background-image: url(/assets/hero-bg.png);
+}
+
+.bg-footer{
+  background-image: url(/assets/footer-bg.png);
+}
